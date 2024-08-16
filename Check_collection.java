@@ -22,12 +22,15 @@ a1.add("ram");
 System.out.println(a1);
 Collections.sort(a1);
 System.out.println(a1);
+Collections.reverse(a1);
+System.out.println(a1);
 
 LinkedList l1=new LinkedList();
 l1.add("ram");
 l1.add("tom");
 l1.add("asha");
 l1.add("bina");
+
 
 System.out.println(l1);
 Collections.sort(l1);
