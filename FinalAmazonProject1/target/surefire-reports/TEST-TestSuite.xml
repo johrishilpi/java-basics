@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="1418.91" tests="38" errors="0" skipped="8" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\mailt\eclipse-workspace\FinalAmazonProject1\target\test-classes;C:\Users\mailt\eclipse-workspace\FinalAmazonProject1\target\classes;C:\Users\mailt\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\mailt\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.1\selenium-java-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.1\selenium-chrome-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.1\selenium-chromium-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.1\selenium-json-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.1\selenium-devtools-v125-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.1\selenium-devtools-v126-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.1\selenium-devtools-v127-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.1\selenium-devtools-v85-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.1\selenium-edge-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.1\selenium-firefox-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\mailt\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.1\selenium-ie-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\mailt\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\mailt\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\mailt\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\mailt\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\mailt\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\mailt\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\mailt\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\mailt\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.1\selenium-safari-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.1\selenium-support-4.23.1.jar;C:\Users\mailt\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\mailt\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\mailt\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\mailt\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\mailt\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\mailt\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\mailt\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\mailt\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\mailt\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\mailt\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\mailt\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\mailt\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\mailt\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\mailt\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\mailt\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\mailt\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\mailt\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\mailt\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\mailt\AppData\Local\Temp\surefire8946451587069491194\surefirebooter-20241024111805580_3.jar C:\Users\mailt\AppData\Local\Temp\surefire8946451587069491194 2024-10-24T11-18-05_412-jvmRun1 surefire-20241024111805580_1tmp surefire_0-20241024111805580_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\mailt\eclipse-workspace\FinalAmazonProject1\target\test-classes;C:\Users\mailt\eclipse-workspace\FinalAmazonProject1\target\classes;C:\Users\mailt\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\mailt\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.1\selenium-java-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.1\selenium-chrome-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.1\selenium-chromium-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.1\selenium-json-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.1\selenium-devtools-v125-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.1\selenium-devtools-v126-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.1\selenium-devtools-v127-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.1\selenium-devtools-v85-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.1\selenium-edge-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.1\selenium-firefox-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\mailt\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.1\selenium-ie-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\mailt\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\mailt\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\mailt\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\mailt\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\mailt\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\mailt\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\mailt\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\mailt\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\mailt\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.1\selenium-safari-driver-4.23.1.jar;C:\Users\mailt\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.1\selenium-support-4.23.1.jar;C:\Users\mailt\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\mailt\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\mailt\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\mailt\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\mailt\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\mailt\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\mailt\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\mailt\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\mailt\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\mailt\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\mailt\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\mailt\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\mailt\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\mailt\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\mailt\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\mailt\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\mailt\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mailt"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Users\mailt\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\mailt\eclipse-workspace\FinalAmazonProject1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\mailt\AppData\Local\Temp\surefire8946451587069491194\surefirebooter-20241024111805580_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.11+9"/>
+    <property name="user.name" value="mailt"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.11+9"/>
+    <property name="localRepository" value="C:\Users\mailt\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\mailt\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="user.dir" value="C:\Users\mailt\eclipse-workspace\FinalAmazonProject1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\mailt\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/mailt/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830/jre/bin/server;C:/Users/mailt/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\mailt\AppData\Local\Microsoft\WindowsApps;;C:\Users\mailt\OneDrive\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.11+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="newUserRegistration" classname="Amazon_Project.Final.Test_1" time="13.701">
+    <system-out><![CDATA[2024-10-24T16:18:13.842038400Z main ERROR Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Test Case 1 Passed-New user registration successful
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 24, 2024 11:18:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="newUserRegistration" classname="Amazon_Project.Final.Test_1" time="13.14">
+    <system-out><![CDATA[Thu Oct 24 11:28:08 CDT 2024
+Thu_Oct_24_11_28_08_CDT_2024
+Test Case 1 Passed-New user registration successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:28:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="login" classname="Amazon_Project.Final.Test_2" time="5.755">
+    <system-out><![CDATA[Thu Oct 24 11:18:26 CDT 2024
+Thu_Oct_24_11_18_26_CDT_2024
+Hello, sign in
+Account & Lists
+Hello, sanji
+Account & Lists
+Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+Test Case 2 Passed -Login successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:18:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="login" classname="Amazon_Project.Final.Test_2" time="12.83">
+    <system-out><![CDATA[Thu Oct 24 11:28:34 CDT 2024
+Thu_Oct_24_11_28_34_CDT_2024
+Hello, sign in
+Account & Lists
+Hello, sanji
+Account & Lists
+Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+Test Case 2 Passed -Login successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:28:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="incorrectlogin" classname="Amazon_Project.Final.Test_3" time="2.697">
+    <system-out><![CDATA[Thu Oct 24 11:18:42 CDT 2024
+Thu_Oct_24_11_18_42_CDT_2024
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:18:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="incorrectlogin" classname="Amazon_Project.Final.Test_3" time="3.433">
+    <system-out><![CDATA[Thu Oct 24 11:29:00 CDT 2024
+Thu_Oct_24_11_29_00_CDT_2024
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:29:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="editprofileinfo" classname="Amazon_Project.Final.Test_4" time="22.465">
+    <system-out><![CDATA[Thu Oct 24 11:18:56 CDT 2024
+Thu_Oct_24_11_18_56_CDT_2024
+230
+982
+The original profile name is Sanji0.004381170991950234
+The new profile name is Sanji0.7443324574849827
+Test Case 4 passed-Change profile name successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:19:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="editprofileinfo" classname="Amazon_Project.Final.Test_4" time="32.543">
+    <system-out><![CDATA[Thu Oct 24 11:29:19 CDT 2024
+Thu_Oct_24_11_29_19_CDT_2024
+227
+982
+The original profile name is Sanji0.7443324574849827
+The new profile name is Sanji0.8323745723951744
+Test Case 4 passed-Change profile name successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:29:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="searchshoe" classname="Amazon_Project.Final.Test_5" time="2.875">
+    <system-out><![CDATA[Thu Oct 24 11:19:29 CDT 2024
+Thu_Oct_24_11_19_29_CDT_2024
+[", s, h, o, e, "]
+shoe
+6
+The text in results is "shoe"
+Test Case 5 Passed: Search is giving correct result
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:19:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="searchshoe" classname="Amazon_Project.Final.Test_5" time="3.099">
+    <system-out><![CDATA[Thu Oct 24 11:30:04 CDT 2024
+Thu_Oct_24_11_30_04_CDT_2024
+[", s, h, o, e, "]
+shoe
+6
+The text in results is "shoe"
+Test Case 5 Passed: Search is giving correct result
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:30:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="categoryPriceRange" classname="Amazon_Project.Final.Test_6" time="21.399">
+    <system-out><![CDATA[Thu Oct 24 11:19:43 CDT 2024
+Thu_Oct_24_11_19_43_CDT_2024
+12
+Men's Sports & Outdoor Shoes
+Men's Running Shoes
+Men's Walking Shoes
+Men's Sneakers
+Men's Formal Shoes
+Boys' Sports & Outdoor Shoes
+Girls' Sports & Outdoor Shoes
+Women's Sports & Outdoor Shoes
+Boys' Casual Shoes
+Women's Casual Shoes
+Men's Casual Shoes
+Girls' Casual Shoes
+Results
+Monkstory
+Sleek Suede Sneakers - Blue
+Monkstory
+Cut-Out Sneakers
+YOHO
+Bliss Comfortable Slip On Semi Casual Loafer for Women | Stylish Fashion Moccasins Range | Cushioned Footbed Finish | Flexible | Style & All-Purpose | Formal Office Wear Shoe
+YOHO
+Bliss Comfortable Slip On Semi Casual Loafer for Women | Stylish Fashion Moccasins Range | Cushioned Footbed Finish | Flexible | Style & All-Purpose | Formal Office Wear Shoe
+SPARX
+Women's Mesh Walking Shoe
+Red Tape
+Casual Sneaker Shoes for Women | Classic Rounded Toe & Pampering Cushioned Comfort
+ASIAN
+Women's FIREFLY-09 Sports Running,Walking,Gym Shoes with Max Cushion Technology Lightweight Eva Sole with Memory Foam Insole Casual Sneaker Shoes for Women's & Girl's
+Boldfit
+Walking Shoes for Men Slip On Shoes for Men Cushion Shoes Without Laces for Men Jogging Shoes for Men Regular Wear Without Lace Shoes for Men Soft Shoes for Men Without Laces Slip Ons for Men
+More results
+ASIAN
+Women's Melody-71 Casual Loafer,Sneaker & Moccasins Shoes with Lightweight Extra Cushion Slip-On Casual Sneaker Shoes for Women's & Girl's
+SPARX
+Women's Sneaker
+ASIAN
+Casual Sneaker Shoes for Women | Soft Cushioned Insole || PARADISE-01 Sneakers for Women
+Campus
+Raise Chunky Casual Walking Sneakers for Women | Women's Casual Shoes with Cushioned Outsole & Light Weight Mesh Upper | Casual Lace-Up Shoes for Women & Girls
+Vendoz
+Women Black Casual Stylish Sneakers
+FAUSTO
+Women's Formal Back Open Platform Wedge Heel Slip On Mule Shoes
+ASIAN
+Women's Sunshine-01 Casual Sneaker Walkng Slip-On Shoes with Breathable Light Weight with Memory Foam Insole Casual Shoes for Women' & Girl's
+U.S. POLO ASSN.
+Womens Uno Sneaker
+Flavia
+womens Flv02 Running Shoes | Walking | Gym | Sports Shoes
+FAUSTO
+Women's Stiched Floral Print Back Open Height Enhancer Flatform Heel Slip On Casual Shoes
+Bata
+Women's New Selah Casual Shoes
+Puma
+Women's Carina Slim Perf Sneaker
+PARAGON
+Paragon Blot K1016L Women's Casual Shoes | Stylish Walking Outdoor Shoes | Daily & Occasion Wear | Smart & Trendy | Comfortable Cushioned Soles
+FREE KICKS
+Bounce Dailywear Lightweight Flexi-Technology EVA Clogs
+Marc Loire
+Women's Lightweight Athleisure Knitted Active Wear Slip-On Casual Shoes
+YOHO
+Bliss Comfortable Slip On Semi Casual Loafer for Women | Stylish Fashion Moccasins Range | Cushioned Footbed Finish | Flexible | Style & All-Purpose | Formal Office Wear Shoe
+Marc Loire
+Women's Lightweight Athleisure Knitted Active Wear Slip-On Sneaker Shoes for Sports, Athletics and Walking
+Amazon Brand - Symactive
+Womens Pag 2887 a Sneaker
+Skechers
+Womens Summits - Quick Lapse Sneaker
+Marc Loire
+Women's Lightweight Athleisure Knitted Active Wear Slip-On Sneaker Shoes for Sports, Athletics and Walking
+SPARX
+Women's Mesh Walking Shoe
+Bata
+Women's Britney E Slipon Casual Shoes
+ASIAN
+Women's Firefly-10 Sports Running,Walking,Gym,Training,Casual Slip-On Lightweight Shoes for Women's & Girl's
+ASIAN
+Women's Fireflty-04 Sports Running,Walking & Gym Shoes Max Cushion with Memory Form Lightweight Eva Sole Extra Jump Casual Sneaker Shoes for Women's & Girl's…
+Red Tape
+Casual Sneaker Shoes for Women | Classic Rounded Front & Cushioned Impact
+adidas
+Mens BREAKNET 2.0 CBLACK/FTWWHT/FTWWHT Running Shoe - 9 UK (HP9425)
+SPARX
+Women's Mesh Casual Shoe
+Puma
+Women's Dazzler Sneaker
+ASIAN
+Women's Firefly-111 Sports Walking,Running,Gym Shoes Slip-On with Breathable Light Weight with Memory Foam Insole Casual Shoes for Women' & Girl's
+Puma
+Women's Pacific Maze Sneaker
+Vendoz
+Women Casual Shoes White Beige Sneakers
+SPARX
+Women's Mesh Sneaker
+ASIAN
+Women's TRENDY-01 Casual Sneaker Shoes Lightweight Soft & Comfortable with Extra Cushion Lace-Up Shoes for Women's & Girl's
+SPARX
+Women's School Shoe
+CatBird
+Women Durable Anti Slip Loafer Shoes
+Campus
+Hall Casual Sneaker Walking Shoes for Women | Casual Lace-Up Shoes with Cushioned Outsole, Light Weight Mesh Upper, and Memory Foam Insole
+Vendoz
+Women Casual Stylish Black High Heel Sneaker Shoes
+Amazon Brand - Symactive
+Womens Pag 2887 D Sneaker
+Vendoz
+Women Casual Shoes
+Vendoz
+Women Casual Shoes White Black Sneakers
+Skechers
+Womens Uno Lite Lighter One Sneakers
+U.S. POLO ASSN.
+Women's Sneaker
+SPARX
+Women's Mesh Sneaker
+Marc Loire
+Women's Lightweight Athleisure Knitted Active Wear Slip-On Casual Shoes
+SPARX
+Women's Slip-On Casual Shoe
+Marc Loire
+Women's Lightweight Athleisure Knitted Active Wear Slip-On Sneaker Shoes for Sports, Athletics and Walking
+Puma
+Unisex Smash v2 Sneaker
+SPARX
+Women's Mesh Casual Shoe
+adidas
+Womens Breaknet 2.0 Casual Shoe
+YOHO
+Bliss Comfortable Slip On Semi Casual Loafer for Women | Stylish Fashion Moccasins Range | Cushioned Footbed Finish | Flexible | Style & All-Purpose | Formal Office Wear Shoe
+YOHO
+Bliss Comfortable Slip On Semi Casual Loafer for Women | Stylish Fashion Moccasins Range | Cushioned Footbed Finish | Flexible | Style & All-Purpose | Formal Office Wear Shoe
+YOHO
+Bliss Comfortable Slip On Semi Casual Loafer for Women | Stylish Fashion Moccasins Range | Cushioned Footbed Finish | Flexible | Style & All-Purpose | Formal Office Wear Shoe
+Zaveri House of Fashion
+Ambicion Alpha Pointed Toe Mule Shoes for Women (Black) | Vegan Leather | Slip-on Flat Sandals for Casual/Formla
+YOHO
+Halo Men’s Premium Dual-Tone Slip-On Sneakers
+Need help?
+There are around 54 searches found for Women shoe
+Test 6 Category passed-Category search resulted in around 54 searches based on category Women's Casual Shoes
+₹195
+₹6,900
+The finalstartprice1 is 6900
+[[[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']], [[ChromeDriver: chrome on windows (4b45ddebada66df75f959387dfc2037c)] -> xpath: //span[@class='a-price-whole']]]
+the count of all the prices on the page= 43
+7799
+6995
+7199
+7699
+7999
+20418
+7199
+7296
+8999
+7581
+7119
+11999
+7624
+8999
+6999
+8499
+10495
+9999
+10022
+7029
+7649
+6999
+6999
+8875
+12713
+7689
+8499
+8399
+6999
+15448
+12713
+7649
+7369
+7499
+8999
+7999
+6999
+6998
+14999
+6999
+7995
+7499
+10459
+There are 43 prices shown on the webpage.Out of which 43 meet the price range criteria of >6900
+Test Case 6 Passed-The price slider is giving accurate results
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:19:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="categoryPriceRange" classname="Amazon_Project.Final.Test_6" time="21.747">
+    <system-out><![CDATA[Thu Oct 24 11:30:23 CDT 2024
+Thu_Oct_24_11_30_23_CDT_2024
+12
+Men's Sports & Outdoor Shoes
+Men's Running Shoes
+Men's Walking Shoes
+Men's Sneakers
+Men's Formal Shoes
+Boys' Sports & Outdoor Shoes
+Girls' Sports & Outdoor Shoes
+Women's Sports & Outdoor Shoes
+Boys' Casual Shoes
+Women's Casual Shoes
+Men's Casual Shoes
+Girls' Casual Shoes
+Results
+Monkstory
+Sleek Suede Sneakers - Blue
+KazarMax
+Glide-INS Women Shoes with Arch Support | Walking | Casual Shoes | Sneakers
+Monkstory
+Cut-Out Sneakers
+FAUSTO
+Women's Stylish Hook & Loop Sneakers for Outdoor|Embellished|Casual|Comfort|Fashion|Lightweight|Shoes with TPR Sole
+SPARX
+Women's Mesh Walking Shoe
+ASIAN
+Women's FIREFLY-09 Sports Running,Walking,Gym Shoes with Max Cushion Technology Lightweight Eva Sole with Memory Foam Insole Casual Sneaker Shoes for Women's & Girl's
+Flavia
+womens Flv02 Running Shoes | Walking | Gym | Sports Shoes
+YOHO
+Halo Men’s Premium Dual-Tone Slip-On Sneakers
+More results
+SPARX
+Women's Sneaker
+ASIAN
+Women's Sunshine-01 Casual Sneaker Walkng Slip-On Shoes with Breathable Light Weight with Memory Foam Insole Casual Shoes for Women' & Girl's
+ASIAN
+Casual Sneaker Shoes for Women | Soft Cushioned Insole || PARADISE-01 Sneakers for Women
+Puma
+Women's Pacific Maze Sneaker
+Red Tape
+Casual Sneaker Shoes for Women | Classic Rounded Toe & Pampering Cushioned Comfort
+ASIAN
+Women's Melody-71 Casual Loafer,Sneaker & Moccasins Shoes with Lightweight Extra Cushion Slip-On Casual Sneaker Shoes for Women's & Girl's
+Bata
+Women's Britney E Slipon Casual Shoes
+FAUSTO
+Women's Formal Back Open Platform Wedge Heel Slip On Mule Shoes
+Skechers
+Womens Summits - Quick Lapse Sneaker
+PARAGON
+Paragon Blot K1016L Women's Casual Shoes | Stylish Walking Outdoor Shoes | Daily & Occasion Wear | Smart & Trendy | Comfortable Cushioned Soles
+FAUSTO
+Women's Stiched Floral Print Back Open Height Enhancer Flatform Heel Slip On Casual Shoes
+ASIAN
+Women's Firefly-10 Sports Running,Walking,Gym,Training,Casual Slip-On Lightweight Shoes for Women's & Girl's
+Amazon Brand - Symactive
+Womens Pag 2887 a Sneaker
+YOHO
+Bliss Comfortable Slip On Semi Casual Loafer for Women | Stylish Fashion Moccasins Range | Cushioned Footbed Finish | Flexible | Style & All-Purpose | Formal Office Wear Shoe
+FAUSTO
+Women's Outdoor Fashion Stitched Slip On Shoes
+YOHO
+Bliss Comfortable Slip On Semi Casual Loafer for Women | Stylish Fashion Moccasins Range | Cushioned Footbed Finish | Flexible | Style & All-Purpose | Formal Office Wear Shoe
+FREE KICKS
+Bounce Dailywear Lightweight Flexi-Technology EVA Clogs
+Marc Loire
+Women's Lightweight Athleisure Knitted Active Wear Slip-On Sneaker Shoes for Sports, Athletics and Walking
+Bata
+Women's New Selah Casual Shoes
+Puma
+Women's Carina Slim Perf Sneaker
+SPARX
+Women's Mesh Sneaker
+SPARX
+Women's Mesh Walking Shoe
+ASIAN
+Women's Fireflty-04 Sports Running,Walking & Gym Shoes Max Cushion with Memory Form Lightweight Eva Sole Extra Jump Casual Sneaker Shoes for Women's & Girl's…
+SPARX
+Women's School Shoe
+adidas
+Womens Breaknet 2.0 Casual Shoe
+Campus
+Raise Chunky Casual Walking Sneakers for Women | Women's Casual Shoes with Cushioned Outsole & Light Weight Mesh Upper | Casual Lace-Up Shoes for Women & Girls
+ASIAN
+Women's Firefly-111 Sports Walking,Running,Gym Shoes Slip-On with Breathable Light Weight with Memory Foam Insole Casual Shoes for Women' & Girl's
+ASIAN
+Women's TRENDY-01 Casual Sneaker Shoes Lightweight Soft & Comfortable with Extra Cushion Lace-Up Shoes for Women's & Girl's
+Vendoz
+Women & Girls White Casual Sports Shoes Sneakers - 36 EU
+Vendoz
+Women Casual Stylish Black High Heel Sneaker Shoes
+Vendoz
+Women Casual Shoes
+Vendoz
+Women Casual Shoes White Beige Sneakers
+Skechers
+Womens Uno Lite Lighter One Sneakers
+Vendoz
+Women Casual Shoes White Black Sneakers
+SPARX
+Women's Mesh Sneaker
+Campus
+Hall Casual Sneaker Walking Shoes for Women | Casual Lace-Up Shoes with Cushioned Outsole, Light Weight Mesh Upper, and Memory Foam Insole
+SPARX
+Women's Slip-On Casual Shoe
+Skechers
+Women's Summits Sneaker
+ASIAN
+Women's BLOSSOM-05 Sports Running Shoes with Ultra Max Cushion Technology Lightweight with Memory Foam Insole Casual Sneaker Shoes for Women's & Girl's
+Bata
+womens Mesh Walking Shoe
+Marc Loire
+Women's Lightweight Athleisure Knitted Active Wear Slip-On Sneaker Shoes for Sports, Athletics and Walking
+Puma
+Women's Dazzler Sneaker
+Bata
+Womens Heidi E Casual Shoe
+Skechers
+Womens Summits - 896219id Casual Shoe
+Campus
+Hellen Women's Sports Shoes | Ideal for Running, Jogging, and Walking | Lightweight Shoes For Women with Breathable Mesh Upper, Thick Cushioned Outsole and Memory Foam Insole for Custom Comfort
+Vendoz
+Women Black Casual Stylish Sneakers
+Bata
+womens Aster Walking Shoe
+Marc Loire
+Women's Lightweight Athleisure Knitted Active Wear Slip-On Casual Shoes
+ASIAN
+Women's Fireflty-01 Sports Running,Walking & Gym Shoes Max Cushion with Memory Form Lightweight Eva Sole Extra Jump Casual Sneaker Shoes for Women's & Girl's…
+FAUSTO
+Women's Back Open Classic Slip On Mules Shoes
+YOHO
+Bliss Comfortable Slip On Semi Casual Loafer for Women | Stylish Fashion Moccasins Range | Cushioned Footbed Finish | Flexible | Style & All-Purpose | Formal Office Wear Shoe
+YOHO
+Bliss Comfortable Slip On Semi Casual Loafer for Women | Stylish Fashion Moccasins Range | Cushioned Footbed Finish | Flexible | Style & All-Purpose | Formal Office Wear Shoe
+YOHO
+Bliss Comfortable Slip On Semi Casual Loafer for Women | Stylish Fashion Moccasins Range | Cushioned Footbed Finish | Flexible | Style & All-Purpose | Formal Office Wear Shoe
+YOHO
+Halo Men’s Premium Dual-Tone Slip-On Sneakers
+Need help?
+There are around 54 searches found for Women shoe
+Test 6 Category passed-Category search resulted in around 54 searches based on category Women's Casual Shoes
+₹195
+₹195
+The finalstartprice1 is 195
+[[[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']], [[EdgeDriver: MicrosoftEdge on windows (9df1a916c4b47ea79bd9f0ffc3052ece)] -> xpath: //span[@class='a-price-whole']]]
+the count of all the prices on the page= 63
+649
+749
+2037
+899
+2037
+934
+650
+635
+299
+1499
+486
+549
+659
+2078
+1588
+609
+849
+2639
+427
+849
+639
+249
+1415
+734
+1299
+1299
+799
+410
+2245
+638
+919
+639
+245
+3258
+1101
+649
+529
+529
+589
+579
+569
+3249
+569
+649
+1189
+267
+2199
+715
+399
+849
+1489
+411
+2364
+1004
+499
+601
+849
+649
+640
+1299
+674
+697
+1499
+There are 63 prices shown on the webpage.Out of which 63 meet the price range criteria of >195
+Test Case 6 Passed-The price slider is giving accurate results
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:30:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="productpagedisplay" classname="Amazon_Project.Final.Test_7" time="7.639">
+    <system-out><![CDATA[Thu Oct 24 11:20:14 CDT 2024
+Thu_Oct_24_11_20_14_CDT_2024
+65
+[F0C7F4035149BFBB5EE0E4CE78DEDCC4, 63A73DB73831727EAA2D0CB672176B6A]
+Test Case 7 for price display passed
+Test Case 7 for product details display or about this item passed
+Test Case 7 for customer product rating display passed
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:20:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="productpagedisplay" classname="Amazon_Project.Final.Test_7" time="7.101">
+    <system-out><![CDATA[Thu Oct 24 11:30:59 CDT 2024
+Thu_Oct_24_11_30_59_CDT_2024
+66
+[BFA50A0FC81B5CAD16B0D6634FCF3361, 8D59E31C409884A8AEF1F1ED701569F4]
+Test Case 7 for price display passed
+Test Case 7 for product details display or about this item passed
+Test Case 7 for customer product rating display passed
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:31:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="productpagedisplay" classname="Amazon_Project.Final.Test_8" time="34.932">
+    <system-out><![CDATA[Thu Oct 24 11:20:33 CDT 2024
+Thu_Oct_24_11_20_33_CDT_2024
+Number of prices after sort 50
+Price of first item 189
+Price of last item 279
+TestCase 8 passed- Sorting low to high successful
+Number of prices after sort 22
+Price of first item 6299
+Price of last item 499
+TestCase 8 passed- Sorting high to low successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:20:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="productpagedisplay" classname="Amazon_Project.Final.Test_8" time="34.045">
+    <system-out><![CDATA[Thu Oct 24 11:31:21 CDT 2024
+Thu_Oct_24_11_31_21_CDT_2024
+Number of prices after sort 49
+Price of first item 189
+Price of last item 279
+TestCase 8 passed- Sorting low to high successful
+Number of prices after sort 20
+Price of first item 6299
+Price of last item 1499
+TestCase 8 passed- Sorting high to low successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:31:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="productAddedToCart" classname="Amazon_Project.Final.Test_9" time="0.0">
+    <skipped message="Test Case 9 Failed-Particular item was not added to cart expected [Campus Mens Oxyfit (N) Walking S] but found [Campus Men&apos;s OXYFIT (N) BLU/Gry ]"/>
+    <system-out><![CDATA[Thu Oct 24 11:21:19 CDT 2024
+Thu_Oct_24_11_21_19_CDT_2024
+Hello, sign in
+Account & Lists
+Campus Mens Oxyfit (N) Walking Shoes
+Campus Mens Oxyfit (N) Walking Shoes
+4
+4
+this is coming fromCampus Mens Oxyfit (N) Walking Shoes
+Campus Men's OXYFIT (N) BLU/Gry Walking Shoes - 8UK/India 22G-574
+Campus Men's OXYFIT (N) BLU/Gry 
+Campus Mens Oxyfit (N) Walking S
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:21:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="productAddedToCart" classname="Amazon_Project.Final.Test_9" time="0.0">
+    <skipped message="Test Case 9 Failed-Particular item was not added to cart expected [Campus Mens Oxyfit (N) Walking Sh] but found [Campus Men&apos;s OXYFIT (N) BLK/Gold ]"/>
+    <system-out><![CDATA[Hello, sign in
+Account & Lists
+Campus Mens Oxyfit (N) Walking Shoes
+Campus Mens Oxyfit (N) Walking Shoes
+5
+5
+this is coming fromCampus Mens Oxyfit (N) Walking Shoes
+Campus Men's OXYFIT (N) BLK/Gold Walking Shoes - 8UK/India 22G-574
+Campus Men's OXYFIT (N) BLK/Gold 
+Campus Mens Oxyfit (N) Walking Sh
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:22:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="productAddedToCart" classname="Amazon_Project.Final.Test_9" time="30.881">
+    <failure message="Test Case 9 Failed-Particular item was not added to cart expected [Campus Mens Oxyfit (N) Walking Sh] but found [Campus Men&apos;s OXYFIT (N) BLK/Gold ]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Test Case 9 Failed-Particular item was not added to cart expected [Campus Mens Oxyfit (N) Walking Sh] but found [Campus Men's OXYFIT (N) BLK/Gold ]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at Amazon_Project.Final.Amz_CartPage.producttitleincart(Amz_CartPage.java:81)
+	at Amazon_Project.Final.Test_9.productAddedToCart(Test_9.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Hello, sign in
+Account & Lists
+Campus Mens Oxyfit (N) Walking Shoes
+Campus Mens Oxyfit (N) Walking Shoes
+6
+6
+this is coming fromCampus Mens Oxyfit (N) Walking Shoes
+Campus Men's OXYFIT (N) BLK/Gold Walking Shoes - 8UK/India 22G-574
+Campus Men's OXYFIT (N) BLK/Gold 
+Campus Mens Oxyfit (N) Walking Sh
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:22:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="productAddedToCart" classname="Amazon_Project.Final.Test_9" time="0.0">
+    <skipped message="Test Case 9 Failed-Particular item was not added to cart expected [Campus Mens Oxyfit (N) Walking S] but found [Campus Men&apos;s OXYFIT (N) BLU/Gry ]"/>
+    <system-out><![CDATA[Thu Oct 24 11:32:08 CDT 2024
+Thu_Oct_24_11_32_08_CDT_2024
+Hello, sign in
+Account & Lists
+Campus Mens Oxyfit (N) Walking Shoes
+Campus Mens Oxyfit (N) Walking Shoes
+3
+3
+this is coming fromCampus Mens Oxyfit (N) Walking Shoes
+Campus Men's OXYFIT (N) BLU/Gry Walking Shoes - 8UK/India 22G-574
+Campus Men's OXYFIT (N) BLU/Gry 
+Campus Mens Oxyfit (N) Walking S
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:32:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="productAddedToCart" classname="Amazon_Project.Final.Test_9" time="0.0">
+    <skipped message="Test Case 9 Failed-Particular item was not added to cart expected [Campus Mens Oxyfit (N) Walking S] but found [Campus Men&apos;s OXYFIT (N) BLU/Gry ]"/>
+    <system-out><![CDATA[Hello, sign in
+Account & Lists
+Campus Mens Oxyfit (N) Walking Shoes
+Campus Mens Oxyfit (N) Walking Shoes
+4
+4
+this is coming fromCampus Mens Oxyfit (N) Walking Shoes
+Campus Men's OXYFIT (N) BLU/Gry Walking Shoes - 8UK/India 22G-574
+Campus Men's OXYFIT (N) BLU/Gry 
+Campus Mens Oxyfit (N) Walking S
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:32:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="productAddedToCart" classname="Amazon_Project.Final.Test_9" time="28.109">
+    <failure message="Test Case 9 Failed-Particular item was not added to cart expected [Campus Mens Oxyfit (N) Walking S] but found [Campus Men&apos;s OXYFIT (N) BLU/Gry ]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Test Case 9 Failed-Particular item was not added to cart expected [Campus Mens Oxyfit (N) Walking S] but found [Campus Men's OXYFIT (N) BLU/Gry ]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at Amazon_Project.Final.Amz_CartPage.producttitleincart(Amz_CartPage.java:81)
+	at Amazon_Project.Final.Test_9.productAddedToCart(Test_9.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Hello, sign in
+Account & Lists
+Campus Mens Oxyfit (N) Walking Shoes
+Campus Mens Oxyfit (N) Walking Shoes
+5
+5
+this is coming fromCampus Mens Oxyfit (N) Walking Shoes
+Campus Men's OXYFIT (N) BLU/Gry Walking Shoes - 8UK/India 22G-574
+Campus Men's OXYFIT (N) BLU/Gry 
+Campus Mens Oxyfit (N) Walking S
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:33:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="CartQuantityandDeletion" classname="Amazon_Project.Final.Test10" time="0.0">
+    <skipped message="Index 2 out of bounds for length 2"/>
+    <system-out><![CDATA[Thu Oct 24 11:23:14 CDT 2024
+Thu_Oct_24_11_23_14_CDT_2024
+Hello, sign in
+Account & Lists
+BRUTON EVA Lite Sport Shoes Running Shoes for Men- Blue
+BRUTON EVA Lite Sport Shoes Running Shoes for Men- Blue
+7
+7
+The quantity before was: Subtotal (7 items):
+The no. before 7
+The quantity now is: Subtotal (7 items):
+The no. after 7
+Test Case failed
+3
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:23:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="CartQuantityandDeletion" classname="Amazon_Project.Final.Test10" time="36.416">
+    <system-out><![CDATA[Hello, sign in
+Account & Lists
+BRUTON EVA Lite Sport Shoes Running Shoes for Men- Blue
+BRUTON EVA Lite Sport Shoes Running Shoes for Men- Blue
+3
+3
+The quantity before was: Subtotal (3 items):
+The no. before 3
+The quantity now is: Subtotal (4 items):
+The no. after 4
+Test Case 10 Passed-Qty change Successful
+2
+Your Amazon Cart is empty.
+Test Case 10 Passed-Deletion of product from cart was successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:24:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="CartQuantityandDeletion" classname="Amazon_Project.Final.Test10" time="0.0">
+    <skipped message="Index 2 out of bounds for length 2"/>
+    <system-out><![CDATA[Thu Oct 24 11:34:10 CDT 2024
+Thu_Oct_24_11_34_10_CDT_2024
+Hello, sign in
+Account & Lists
+BRUTON EVA Lite Sport Shoes Running Shoes for Men- Blue
+BRUTON EVA Lite Sport Shoes Running Shoes for Men- Blue
+6
+6
+The quantity before was: Subtotal (6 items):
+The no. before 6
+The quantity now is: Subtotal (7 items):
+The no. after 7
+Test Case 10 Passed-Qty change Successful
+3
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:34:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="CartQuantityandDeletion" classname="Amazon_Project.Final.Test10" time="35.9">
+    <system-out><![CDATA[Hello, sign in
+Account & Lists
+BRUTON EVA Lite Sport Shoes Running Shoes for Men- Blue
+BRUTON EVA Lite Sport Shoes Running Shoes for Men- Blue
+3
+3
+The quantity before was: Subtotal (3 items):
+The no. before 3
+The quantity now is: Subtotal (4 items):
+The no. after 4
+Test Case 10 Passed-Qty change Successful
+2
+Your Amazon Cart is empty.
+Test Case 10 Passed-Deletion of product from cart was successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:35:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="checkoutProcess" classname="Amazon_Project.Final.Test11" time="73.706">
+    <system-out><![CDATA[Thu Oct 24 11:24:50 CDT 2024
+Thu_Oct_24_11_24_50_CDT_2024
+Hello, sign in
+Account & Lists
+BRUTON Shoes for Trendy Shoes | Casual Shoes | Sports Shoes | Running Shoes
+BRUTON Shoes for Trendy Shoes | Casual Shoes | Sports Shoes | Running Shoes
+1
+1
+Test Case 11 passed-Address selected successfully
+Test Case 11 passed-Payment type selected successfully
+5166466132595770
+Judge Glazier
+10
+2027
+119
+644
+934
+BRUTON Shoes for Trendy Shoes | Casual Shoes | Sneakers | Walking Shoes for Men - Grey, Size : 8
+Test Case 11 Passed-Order review successful- BRUTON Shoes for Trendy Shoes | Casual Shoes | Sneakers | Walking Shoes for Men - Grey, Size : 8 displayed on the checkout page
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:24:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="checkoutProcess" classname="Amazon_Project.Final.Test11" time="0.0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;order-summary&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=129.0.2792.79)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [d097b24ec95ee86d9743862c3fab153b, findElement {value=//span[@class=&apos;order-summary&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57661}, msedge: {msedgedriverVersion: 129.0.2792.89 (65986ec8d2a8..., userDataDir: C:\Users\mailt\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57661/devtoo..., se:cdpVersion: 129.0.2792.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d097b24ec95ee86d9743862c3fab153b"/>
+    <system-out><![CDATA[Thu Oct 24 11:35:46 CDT 2024
+Thu_Oct_24_11_35_46_CDT_2024
+Hello, sign in
+Account & Lists
+Campus Mens Oxyfit (N) Walking Shoes
+Campus Mens Oxyfit (N) Walking Shoes
+1
+1
+Test Case 11 passed-Address selected successfully
+Test Case 11 passed-Payment type selected successfully
+5166466132595770
+Judge Glazier
+10
+2027
+119
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:35:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="checkoutProcess" classname="Amazon_Project.Final.Test11" time="0.0">
+    <skipped message="element not interactable&#10;  (Session info: MicrosoftEdge=129.0.2792.79)&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [f451510355a8914395a8887e85b53f15, clickElement {id=f.BE3195B47592BEC1A6AF54E89507442F.d.338470956DD103DB563637183BA3B744.e.4090}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57933}, msedge: {msedgedriverVersion: 129.0.2792.89 (65986ec8d2a8..., userDataDir: C:\Users\mailt\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57933/devtoo..., se:cdpVersion: 129.0.2792.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (f451510355a8914395a8887e85b53f15)] -&gt; xpath: //span[.=&apos;Sign in&apos;]]&#10;Session ID: f451510355a8914395a8887e85b53f15"/>
+    <system-out><![CDATA[Hello, sign in
+Account & Lists
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:37:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="checkoutProcess" classname="Amazon_Project.Final.Test11" time="71.026">
+    <system-out><![CDATA[Hello, sign in
+Account & Lists
+Campus Mens Oxyfit (N) Walking Shoes
+Campus Mens Oxyfit (N) Walking Shoes
+2
+2
+Test Case 11 passed-Address selected successfully
+Test Case 11 passed-Payment type selected successfully
+5166466132595770
+Judge Glazier
+10
+2027
+119
+637
+1104
+Campus Men's OXYFIT (N) BLU/Gry Walking Shoes - 8UK/India 22G-574
+Test Case 11 Passed-Order review successful- Campus Men's OXYFIT (N) BLU/Gry Walking Shoes - 8UK/India 22G-574 displayed on the checkout page
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:38:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="selectVariousPayementMethod" classname="Amazon_Project.Final.Test12" time="37.211">
+    <system-out><![CDATA[Thu Oct 24 11:26:15 CDT 2024
+Thu_Oct_24_11_26_15_CDT_2024
+Hello, sign in
+Account & Lists
+BRUTON Shoes for Trendy Shoes | Casual Shoes | Sports Shoes | Running Shoes
+BRUTON Shoes for Trendy Shoes | Casual Shoes | Sports Shoes | Running Shoes
+2
+2
+TestCase 12 Passed-Selection of credit or debit card successful
+TestCase 12 Passed-Selection of NetBanking successful
+TestCase 12 Passed-Selection of upi successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:26:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="selectVariousPayementMethod" classname="Amazon_Project.Final.Test12" time="37.09">
+    <system-out><![CDATA[Thu Oct 24 11:39:29 CDT 2024
+Thu_Oct_24_11_39_29_CDT_2024
+Hello, sign in
+Account & Lists
+AADI Men's Black Mesh Outdoor Casual Shoes
+AADI Men's Black Mesh Outdoor Casual Shoes
+3
+3
+TestCase 12 Passed-Selection of credit or debit card successful
+TestCase 12 Passed-Selection of NetBanking successful
+TestCase 12 Passed-Selection of upi successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:39:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="selectCoupon" classname="Amazon_Project.Final.Test13" time="12.08">
+    <system-out><![CDATA[Thu Oct 24 11:27:02 CDT 2024
+Thu_Oct_24_11_27_02_CDT_2024
+[16F9471590FF4DEA9028AFBD4999F19A]
+Test Case 13 passed-Coupon click successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:27:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="selectCoupon" classname="Amazon_Project.Final.Test13" time="15.373">
+    <system-out><![CDATA[Thu Oct 24 11:40:22 CDT 2024
+Thu_Oct_24_11_40_22_CDT_2024
+[2A6143C1381B09759B4A2540D096731C]
+Test Case 13 passed-Coupon click successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:40:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="orderRating" classname="Amazon_Project.Final.Test14" time="8.925">
+    <system-out><![CDATA[Thu Oct 24 11:27:25 CDT 2024
+Thu_Oct_24_11_27_25_CDT_2024
+Excellent
+Test Case 14 passed-5 star rating on product ordered successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:27:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="orderRating" classname="Amazon_Project.Final.Test14" time="8.589">
+    <system-out><![CDATA[Thu Oct 24 11:40:51 CDT 2024
+Thu_Oct_24_11_40_51_CDT_2024
+Excellent
+Test Case 14 passed-5 star rating on product ordered successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:41:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="cartWithoutlogging" classname="Amazon_Project.Final.Test15" time="11.497">
+    <system-out><![CDATA[Thu Oct 24 11:27:45 CDT 2024
+Thu_Oct_24_11_27_45_CDT_2024
+[", s, h, o, e, "]
+shoe
+6
+The text in results is "shoe"
+Test Case 5 Passed: Search is giving correct result
+1
+1
+Amazon.in Shopping Cart
+Hello, sign in
+Test Case 15 passed-Reaching the cart page without logging in successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:27:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="cartWithoutlogging" classname="Amazon_Project.Final.Test15" time="10.272">
+    <system-out><![CDATA[Thu Oct 24 11:41:13 CDT 2024
+Thu_Oct_24_11_41_13_CDT_2024
+[", s, h, o, e, "]
+shoe
+6
+The text in results is "shoe"
+Test Case 5 Passed: Search is giving correct result
+1
+1
+Amazon.in Shopping Cart
+Hello, sign in
+Test Case 15 passed-Reaching the cart page without logging in successful
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2024 11:41:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+</testsuite>
